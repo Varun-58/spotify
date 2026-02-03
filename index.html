@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sportify.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navBar">
+      <img src="logo.png" alt="spotifyLogo" id="spLogo" /><span id="spText"
+        >Spotify</span
+      >
+      <i class="fa-solid fa-house" id="homeIcon"></i>
+      <div class="searchBarCover">
+        <label for="searchBar">
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+          <input
+            type="search"
+            name="search"
+            id="searchBar"
+            placeholder="Search..."
+          />
+        </label>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="hero">
+        <div class="musicList">
+          <div class="m1 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+          <div class="m2 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+          <div class="m3 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+          <div class="m4 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+          <div class="m5 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+          <div class="m6 m">
+            <img src="" alt="" /><span class="mt"></span
+            ><i class="fa-solid fa-play pp"></i>
+          </div>
+        </div>
+        <div class="advTools"></div>
+      </div>
+      <div class="bottom">
+        <input
+          type="range"
+          name="range"
+          id="musicRange"
+          min="0"
+          max="100"
+          value="0"
+        />
+        <div class="mc">
+          <div class="ct01">
+            <img src="playing.gif" alt="gif" id="musicGif" />
+            <div class="musicName"><span></span></div>
+          </div>
+          <div class="ct02">
+            <i class="fa-solid fa-backward icon-1"></i>
+            <i class="fa-solid fa-play icon-2"></i>
+            <i class="fa-solid fa-forward icon-3"></i>
+          </div>
+          <div class="ct03">
+            <span id="currentTime">0.00</span> | <span id="duration">0.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
