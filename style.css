@@ -9,6 +9,7 @@ html {
   margin: 0;
   border: 0;
   outline: 0;
+  font-family: "Baloo Paaji 2", sans-serif;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
   height: clamp(46px, 10vh, 56px);
   width: 100vw;
   background-color: rgb(135, 137, 138);
-  font-family: "Baloo Paaji 2", sans-serif;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -92,7 +92,6 @@ body {
   flex-direction: column;
   padding: 1rem;
   gap: 4px;
-  font-family: "Baloo Bai 2", sans-serif;
   flex: 1;
   overflow-y: auto;
   gap: 0.8rem;
